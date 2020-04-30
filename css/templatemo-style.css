@@ -242,10 +242,6 @@ https://templatemo.com/tm-516-known
     animation: spinner .9s linear infinite;
   }
 
-  @-webkit-@keyframes spinner {
-    to {transform: rotate(360deg);}
-  }
-
   @keyframes spinner {
     to {transform: rotate(360deg);}
   }
@@ -383,7 +379,8 @@ https://templatemo.com/tm-516-known
 
   .home-slider .item-first {
     background-image: url(../images/slider-image1.jpg);
-	background-position: center;
+    background-position: center;
+    background-size: cover;
   }
 
   .home-slider .item-second {
@@ -392,6 +389,7 @@ https://templatemo.com/tm-516-known
 
   .home-slider .item-third {
     background-image: url(../images/slider-image3.jpg);
+    background-size: cover;
   }
 
 
@@ -473,6 +471,7 @@ https://templatemo.com/tm-516-known
 
   .team-image img {
     width: 100%;
+    min-height: 196px;
   }
 
   .team-thumb .social-icon {
@@ -502,6 +501,7 @@ https://templatemo.com/tm-516-known
     margin-top: 30px;
   }
 
+
   #courses .owl-theme .owl-nav [class*=owl-] {
     border-radius: 2px;
     font-size: 16px;
@@ -523,6 +523,7 @@ https://templatemo.com/tm-516-known
 
   .courses-image {
     background: linear-gradient(to right, #202020, #101010);
+    max-height: 220px;
   }
 
   .courses-date {
