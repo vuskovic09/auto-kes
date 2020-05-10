@@ -20,6 +20,19 @@ https://templatemo.com/tm-516-known
     padding-top: 70px;
   }
 
+  figcaption p {
+    font-size: 18px;;
+  }
+
+  .subtitle {
+    color: #3f51b5;
+    font-weight: bolder;
+    font-size: 18px;
+  }
+
+  .custom-navbar .navbar-brand {
+    font-size: 28px !important;
+  }
 
   /*---------------------------------------
      TYPOGRAPHY              
