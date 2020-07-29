@@ -1013,3 +1013,13 @@ https://templatemo.com/tm-516-known
     }
   }
   
+
+  .phoneButton {
+    font-weight: 900;
+    font-size: 24px;
+    color: white;
+  }
+
+  figcaption p {
+    font-weight: bolder;
+  }
